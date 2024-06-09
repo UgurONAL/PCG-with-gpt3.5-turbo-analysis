@@ -1,0 +1,5 @@
+10-input-3-epoch-0.5-temp-50-output:
+  training_set: training-set-10-examples
+  n_epochs: 3
+  temperature: 0.5
+  n_generations: 50

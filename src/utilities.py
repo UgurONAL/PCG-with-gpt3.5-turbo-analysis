@@ -1,3 +1,12 @@
+import yaml
+
+
+def read_hypers():
+    with open("./src/hyper.yaml", "r") as hyper:
+        hyper_dict = yaml.safe_load(hyper)
+        return hyper_dict
+
+
 def get_file_contents(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
