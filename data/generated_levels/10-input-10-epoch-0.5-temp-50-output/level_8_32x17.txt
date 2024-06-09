@@ -1,0 +1,17 @@
+           #####
+           #   #########
+           #   #       ####
+         ###  ## $  $ $  .#
+         # ## #  $ #   #  .#
+      #### #  # $  # #  #  .#
+      #   ### $  #  # #  #  .#
+      # $  $  ##   # #  #  .#
+      #  #   # ##### #  ####
+      #  ### #     #  #
+      # ##   #     #####
+      ##  #  #
+       ## # ##
+        # @ #
+        #####
+
+This Sokoban level features a 32x17 grid size with a solvable puzzle where all crates can be moved to storage locations. The player is represented by the symbol '@'.
