@@ -1,0 +1,12 @@
+ #######
+ #  #  ##
+## # $  #
+#  $  # #
+# # $ $ #
+#  ## . #
+## #  $ #
+ #  # $ #
+ ##  #  #
+  #######
+
+This Sokoban level has a size of 11x21 and is a solvable puzzle where all crates can be moved to storage locations.

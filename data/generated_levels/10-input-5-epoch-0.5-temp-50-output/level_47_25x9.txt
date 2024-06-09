@@ -1,0 +1,16 @@
+    #####
+    #   ######
+    # $ $ $ . #
+  ### # .#.#. #
+  #   ###. . .#
+### # #  # # .#
+#   # ##    #.#
+#  ##  #  #  @#
+###### ####   #
+    #      ####
+    ########   #
+          #   #
+          #   #
+          #####
+
+This Sokoban level has a size of 25x9 and contains 4 crates and 4 storage locations.

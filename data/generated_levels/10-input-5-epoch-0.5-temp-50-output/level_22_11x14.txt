@@ -1,0 +1,15 @@
+    #####
+    #   ######
+    # $ $ $  #
+  ### #  # $ #
+  #   #$ #   #
+### #  $  # ###
+#   # $  # #  #
+#  ##  ## $   #
+##  $..#  $ ##
+ #  #..# $  #
+ #  #..$  $ #
+ #### ##   #
+    #  #####
+
+This Sokoban level has a size of 11x14 and consists of walls, empty spaces, crates, storage locations, and a player.

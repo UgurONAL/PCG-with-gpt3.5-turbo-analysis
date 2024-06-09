@@ -1,6 +1,6 @@
 import yaml
 import os
-import json
+from src.sokoban_solver import SokobanSolver
 
 
 def read_hypers():
@@ -90,3 +90,22 @@ def create_jsonl_from_folder(folder_path, output_file):
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write("\n".join(data))
+
+
+def check_level_validity(level_matrix):
+    actor_counts = {"@": 0, "$": 0, ".": 0, " ": 0, "#": 0}
+    for row in level_matrix:
+        for cell in row:
+            if cell in actor_counts:
+                actor_counts[cell] += 1
+
+    if actor_counts["@"] != 1:
+        return False, "The level should contain exactly one player."
+    if actor_counts["$"] != actor_counts["."]:
+        return False, "The number of crates and storage locations should be equal."
+
+    """sokoban_solver = SokobanSolver(level_matrix)
+    if not sokoban_solver.solve():
+        return False, "The level is unsolvable."
+
+    return True, sokoban_solver.solution_node()"""

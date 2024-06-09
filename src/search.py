@@ -12,7 +12,7 @@ functions.
 import sys
 from collections import deque
 
-from utils import *
+from src.utils import *
 
 
 class Problem:
