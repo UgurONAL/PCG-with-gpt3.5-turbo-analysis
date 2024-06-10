@@ -7,4 +7,4 @@ Please install the required packages by running the following command:
 
 ```pip install -r requirements.txt```
 
-The project's workflow is detailed in the "level-generation.ipynb" file.
+The project's workflow is detailed in the [level-generation.ipynb](./level-generation.ipynb) file.
