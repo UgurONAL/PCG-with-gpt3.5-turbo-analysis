@@ -6,3 +6,5 @@ Python version: 3.12.3
 Please install the required packages by running the following command:
 
 ```pip install -r requirements.txt```
+
+The project's workflow is detailed in the "level-generation.ipynb" file.
