@@ -77,7 +77,7 @@ def analyse_experiment_results(data_folder, training_mode, training_set, n_epoch
     validity_analysis = get_validity_analysis(generated_levels)
     novelty_analysis = get_novelty_analysis(data_folder, generated_levels, training_set)
 
-    experiment_analysis = {"training_set": training_set,
+    experiment_analysis = {"training_set": int(training_set.split("-")[2]),
                            "n_epochs": n_epochs,
                            "temperature": temperature,
                            "n_generations": n_generations,
@@ -101,7 +101,7 @@ def analyse_all_experiment_results(data_folder):
 
 def store_experiment_results(experiment_results, folder_path):
     csv_columns = [
-        "Training Mode", "Training Set", "Epochs", "Temperature", "Generations",
+        "Training Mode", "Training Set Size", "Epochs", "Temperature", "Generations",
         "Validity Dimension", "Validity Player Count", "Validity Crate Storage Location Count",
         "Novelty to Training Set", "Novelty to Each Other", "Novelty to All"
     ]
